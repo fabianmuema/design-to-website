@@ -1,0 +1,260 @@
+* html {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  padding-top: 51px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #808F99;
+}
+
+a:hover {
+  color: #03B3AF;
+}
+
+.active-link {
+  color: #03B3AF;
+}
+
+.fa-search, .stroke {
+  color: #03B3AF;
+}
+
+.live-chat {
+  border-radius: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 6px;
+}
+
+.fa-search:hover,
+.stroke:hover {
+  color: #03b3af;
+}
+
+.nav-item .live-chat {
+  color: lightgray;
+  background-color: #FF3150;
+}
+
+.half-vp {
+  width: 100%;
+  min-height: 70vh;
+  background-color: #19283F;
+}
+
+.half-vp h1, .half-vp span {
+  color: #C2C5CA;
+  font-weight: 300;
+}
+
+.half-vp span {
+  color: #03b3af;
+}
+
+.get-started {
+  border-radius: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 6px;
+  color: lightgray;
+  background-color: #FF3150;
+}
+
+.blue-border {
+  width: 5%;
+  border-bottom: solid 2px #A0E9E7;
+  margin: 0 auto;
+}
+
+.boxes {
+  max-width: 200%;
+  min-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.boxes .box-item {
+  max-width: 400px;
+  background-color: #33D1CC;
+}
+
+.boxes .box-item:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.boxes .item2 {
+  background-color: #FFE13E;
+}
+
+.boxes .fa-server {
+  color: white;
+  font-size: 4em;
+}
+
+.boxes .dot-com {
+  color: black;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.features {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #EFF7FA;
+}
+
+.features .one, .features .two, .features .three {
+  overflow-x: hidden;
+}
+
+.features .back-number {
+  color: white;
+  position: absolute;
+  font-size: 6em;
+  font-weight: 800;
+}
+
+.features .fa-headphones, .features .fa-cloud, .features .fa-database {
+  position: absolute;
+  font-size: 2em;
+  color: #33D1CC;
+  z-index: 11;
+}
+
+.testimonials {
+  overflow-x: hidden;
+  min-height: 60vh;
+}
+
+.testimonials .card {
+  background-color: #F7FBFC;
+  -webkit-box-shadow: 2px 2px 10px 2px lightgray;
+          box-shadow: 2px 2px 10px 2px lightgray;
+}
+
+.testimonials .card:hover {
+  -webkit-box-shadow: 0 0 10px 2px lightgray;
+          box-shadow: 0 0 10px 2px lightgray;
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.testimonials .card-text,
+.testimonials .name {
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 10px;
+}
+
+.testimonials .card-text::before {
+  content: open-quote;
+}
+
+.testimonials .card-text::after {
+  content: close-quote;
+}
+
+.testimonials .name {
+  color: #33D1CC;
+}
+
+.testimonials .image {
+  border: solid 2px lightgray;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-size: cover;
+  z-index: 11;
+  right: 0;
+  margin-top: -33px;
+  margin-right: 10px;
+}
+
+.subscribe {
+  background-color: #F7FBFC;
+}
+
+.subscribe form {
+  min-width: 60%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #19283F;
+  width: 100%;
+  min-height: 50vh;
+  color: lightgray;
+}
+
+footer ion-icon {
+  font-size: 1.7em;
+  padding-left: 10px;
+}
+
+footer ion-icon[name="logo-facebook"] {
+  color: #347CD2;
+}
+
+footer ion-icon[name="logo-instagram"] {
+  color: #FF58AC;
+}
+
+footer ion-icon[name="logo-twitter"] {
+  color: #1EC4FF;
+}
+
+footer ion-icon[name="logo-googleplus"] {
+  color: #FF4032;
+}
+
+footer span, footer .name {
+  color: #33D1CC;
+}
+
+@media screen and (max-width: 720px) {
+  .boxes {
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -ms-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,296 @@
+body {
+  color: white;
+  margin-right: 20px;
+  background-size: cover;
+}
+
+nav {
+  position: absolute;
+  z-index: 1234567;
+  margin-top: 50px;
+}
+
+nav a {
+  font-size: 0.8em;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav i {
+  font-size: 1.4em;
+}
+
+main .dot {
+  position: relative;
+  margin-top: 15px;
+  background: #F23249;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+main .nav {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+main .nav li {
+  letter-spacing: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-box-direction: normal;
+  -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .nav li a {
+  color: white;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+main .nav li a:hover {
+  color: #EC2B44;
+}
+
+main .nav li .contact, main .nav li .dot-1, main .nav li .dot-5, main .nav li .social, main .nav li .projects, main .nav li .dot-2, main .nav li .dot-4, main .nav li .hire {
+  font-size: 0.8em;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  position: relative;
+}
+
+main .nav li .dot-1, main .nav li .dot-5 {
+  width: 4px;
+  height: 4px;
+}
+
+main .nav li .social, main .nav li .projects {
+  font-size: 1.05em;
+}
+
+main .nav li .dot-2, main .nav li .dot-4 {
+  width: 6px;
+  height: 6px;
+}
+
+main .nav li .about {
+  font-size: 1.7em;
+}
+
+main .nav li .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  z-index: 12455432332;
+  margin-left: -30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main .nav li .dot-3 {
+  width: 12px;
+  height: 12px;
+  margin-top: 25px;
+}
+
+main .nav li .projects:hover, main .nav li .hire:hover, main .nav li .contact:hover, main .nav li .dot-1:hover, main .nav li .dot-5:hover, main .nav li .social:hover, main .nav li .projects:hover, main .nav li .dot-2:hover, main .nav li .dot-4:hover, main .nav li .hire:hover, main .nav li .social:hover, main .nav li .projects:hover {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+main .line-across, main .line-across-2 {
+  position: absolute;
+  width: 13%;
+  margin-top: 270px;
+  z-index: -1;
+  border-top: 0.5px solid #919191;
+  -webkit-filter: blur(0.4px);
+          filter: blur(0.4px);
+}
+
+main .line-across-2 {
+  right: 0;
+  width: 63%;
+}
+
+main .gaming {
+  font-family: 'Anton', sans-serif;
+}
+
+main .gaming .gaming-h1 {
+  color: #F23249;
+}
+
+main .gaming .text-uppercase {
+  font-size: 5em;
+  letter-spacing: 3px;
+}
+
+main .gaming .exclamation {
+  font-size: 2.5em;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 160px;
+  color: #F23249;
+}
+
+main .details {
+  position: absolute;
+  margin-left: 300px;
+  z-index: 1;
+  width: 500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main .line {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 100px;
+  font-size: 0.5em;
+}
+
+main .line .real-line, main .line .colored-line {
+  height: 150px;
+  margin-left: 5px;
+  border-left: 0.05px solid lightgrey;
+}
+
+main .line .colored-line {
+  border-color: #F23249;
+}
+
+main .top {
+  position: absolute;
+  margin-top: -40px;
+}
+
+main .arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 1.6em;
+  color: #F23249;
+  position: absolute;
+  right: 0;
+  margin-top: 252px;
+  margin-right: 200px;
+}
+
+main .footer .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -moz-box-pack: right;
+  -ms-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.discover {
+  font-size: 0.7em;
+}
+
+.border-top {
+  width: 10%;
+  margin-left: 70px;
+}
+
+.wrapper-menu {
+  width: 7%;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -moz-box-orient:vertical;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-box-pack:justify;
+  -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 330ms ease-out;
+  transition: -webkit-transform 330ms ease-out;
+  transition: transform 330ms ease-out;
+  transition: transform 330ms ease-out, -webkit-transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.line-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 70%;
+  height: 1px;
+}
+
+.line-menu.half {
+  width: 40%;
+}
+
+.line-menu.start {
+  -webkit-transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+          transform-origin: right;
+  width: 70%;
+}
+
+.open .line-menu.start {
+  -webkit-transform: rotate(-90deg) translateX(3px);
+  -ms-transform: rotate(-90deg) translateX(3px);
+          transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  -webkit-transform: rotate(-90deg) translateX(-3px);
+  -ms-transform: rotate(-90deg) translateX(-3px);
+          transform: rotate(-90deg) translateX(-3px);
+}
+/*# sourceMappingURL=style.css.map */
